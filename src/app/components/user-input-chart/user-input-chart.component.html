@@ -1,0 +1,13 @@
+<div class="card">
+  <div class="card-header">
+    <h5 class="card-title mb-0">{{title}}</h5>
+  </div>
+  <div class="card-body">
+    <canvas baseChart [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions" [legend]="lineChartLegend"
+      [chartType]="lineChartType"></canvas>
+  </div>
+  <div class="card-footer">
+    <button type="button" class="btn btn-dark" (click)="decrement()">-</button>
+    <button type="button" class="btn btn-dark" (click)="increment()">+</button>
+  </div>
+</div>

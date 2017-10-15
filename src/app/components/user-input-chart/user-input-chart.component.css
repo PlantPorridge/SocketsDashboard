@@ -1,0 +1,9 @@
+.card-footer {
+    display: flex;
+    justify-content: center;    
+}
+
+.card-footer > button {
+    margin: 0rem 1rem;
+    cursor: pointer;
+}
