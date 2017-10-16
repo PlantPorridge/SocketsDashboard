@@ -3,12 +3,12 @@ import { Observable } from 'rxjs/Observable';
 import { SocketService } from './services/socket-service.service';
 
 @Component({
-  selector: 'socket-dashboard-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: 'socket-dashboard',
+  templateUrl: './socket-dashboard.component.html',
+  styleUrls: ['./socket-dashboard.component.css'],
   providers: [SocketService]
 })
-export class AppComponent {
+export class SocketDashboardComponent {
 
   connection;
 
