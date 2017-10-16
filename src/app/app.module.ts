@@ -24,7 +24,8 @@ import { SOCKET_URL } from './services/socket-service.service';
     HttpModule,
     ChartsModule
   ],
-  providers: [{ provide: SOCKET_URL, useValue: "http://localhost:5000" }
+  // providers: [{ provide: SOCKET_URL, useValue: "http://localhost:5000" }  
+  providers: [{ provide: SOCKET_URL, useValue: "https://glacial-sierra-54178.herokuapp.com/" }
 ],
   bootstrap: [AppComponent]
 })
