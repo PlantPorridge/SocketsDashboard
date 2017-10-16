@@ -1,1 +1,0 @@
-export { SocketDashboardModule } from './src/app/socket-dashboard.module';
