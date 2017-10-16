@@ -29,4 +29,4 @@ import { SocketDashboardComponent } from './socket-dashboard.component';
 ],
   bootstrap: [SocketDashboardComponent]
 })
-export class AppModule { }
+export class SocketDashboardModule { }
